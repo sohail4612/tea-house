@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tea house</title>
+  <!-- manrope font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/b6378e26be.js" crossorigin="anonymous"></script>
+  <!-- tailwind cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <!-- main content -->
+  <main class="max-w-screen-xl mx-auto px-16 lg:px-20">
+    <!-- header section -->
+    <header class="lg:flex pt-10 mb-20">
+      <!-- text content -->
+      <div>
+        <h1 class="font-extrabold text-5xl md:text-7xl">It's good<br>tea time at The<br>Tea House</h1>
+        <br>
+        <p class="text-[#777777] w-3/4 font-medium text-lg">Tea and Botanical Solutions Supplier Give Optimum
+          Satisfaction To Your Taste Buds.</p>
+        <br>
+        <button
+          class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg text-white px-5 py-5 font-bold text-xl">Explore
+          More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+      </div>
+      <!-- image and card section -->
+      <div class="relative ">
+        <div>
+          <img class="w-full" src="images/banner.png" alt="">
+        </div>
+        <!-- card -->
+        <div
+          class="absolute flex items-center bg-white shadow-lg px-2 py-4 rounded-lg  lg:top-80 left-20 w-64 justify-center gap-5">
+          <div>
+            <i class="fa-solid fa-star text-2xl text-[#FFDC64]"></i>
+          </div>
+          <div>
+            <h2 class="font-extrabold text-3xl">5.00</h2>
+            <p class="font-semibold text-base text-[#777777]">Trust Pilot Ratings</p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </header>
+    <!-- feature -->
+    <section class="py-8 lg:py-20">
+      <!-- description -->
+      <div class="text-center my-10">
+        <h1 class="text-3xl lg:text-4xl font-extrabold">Our Featured Products</h1>
+        <p class="text-gray-500 max-w-xl mx-auto font-medium mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
+      <!-- cards -->
+       <div class="text-center lg:flex gap-5">
+        <div class=" rounded-lg shadow-md bg-gray-50 overflow-hidden">
+          <img class="mx-auto" src="images/tea-1.png" alt="">
+          <h3 class="font-extrabold text-2xl">Milk Tea</h3>
+          <p class=" p-4 font-semibold text-gray-500">Creamer could be replaced by fresh milk</p>
+         </div>
+         <div class="mt-10 rounded-lg shadow-md bg-gray-50 overflow-hidden">
+          <img class="mx-auto" src="images/tea-2.png" alt="">
+          <h3 class="font-extrabold text-2xl">Black Tea</h3>
+          <p class=" p-4 font-semibold text-gray-500">Creamer could be replaced by fresh milk</p>
+         </div>
+         <div class="mt-10 rounded-lg shadow-md bg-gray-50 overflow-hidden">
+          <img class="mx-auto" src="images/tea-3.png" alt="">
+          <h3 class="font-extrabold text-2xl">Lemon Tea</h3>
+          <p class="p-4 font-semibold text-gray-500">Creamer could be replaced by fresh milk</p>
+         </div>
+         <div class="mt-10 rounded-lg shadow-md bg-gray-50 overflow-hidden">
+          <img class="mx-auto" src="images/tea-4.png" alt="">
+          <h3 class="font-extrabold text-2xl">Green Tea</h3>
+          <p class="p-4 font-semibold text-gray-500">Creamer could be replaced by fresh milk</p>
+         </div>
+       </div>
+      
+    </section>
+
+
+  </main>
+
+</body>
+
+</html>
